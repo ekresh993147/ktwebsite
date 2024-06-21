@@ -98,11 +98,38 @@ section {
 section h2 {
     margin-bottom: 10px;
     font-size: 2em;
-    color: #5679d4;
+    color: #ffffff;
 }
 
 section p {
     line-height: 1.8;
+}
+
+/* Columns section styles */
+#columns .col-md-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#columns img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#columns img:hover {
+    transform: scale(1.05);
+}
+
+#columns h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #6993ee;
+}
+
+#columns p {
+    color: #666;
 }
 
 /* Footer styles */
