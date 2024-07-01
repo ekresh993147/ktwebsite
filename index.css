@@ -44,9 +44,13 @@ header h1 {
     background-color: #73ade7; /* Измените этот цвет по вашему усмотрению */
 }
 
+.custom-navbar .dropdown-item,
+.custom-navbar .dropdown-item:hover{
+  color: #000000 !important; /* Сделать все надписи белыми */
+}
+
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link,
-.custom-navbar .dropdown-item,
 .custom-navbar .btn {
     color: #ffffff !important; /* Сделать все надписи белыми */
 }
